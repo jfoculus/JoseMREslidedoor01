@@ -1,0 +1,95 @@
+{
+  "opentime": 5,
+  "greetingdelay": 1.2,
+  "opensound": "https://www.illuminati360.xyz/automaticdoor/open.ogg",
+  "closesound": "https://www.illuminati360.xyz/automaticdoor/close.ogg",
+  "lockedsound": "https://www.illuminati360.xyz/automaticdoor/locked.ogg",
+  "greetingsound": "https://www.illuminati360.xyz/automaticdoor/welcome.ogg",
+  "password": "666",
+  "isDebug": true,
+  "sensorPosition": {
+    "x": 0,
+    "y": 1,
+    "z": -1.1
+  },
+  "parts": [
+    {
+      "prefabid": "artifact:1668143687336461197",
+      "openduration": 1,
+      "closeduration": 1,
+      "closed": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "open": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "prefabid": "artifact:1668143699659326356",
+      "openduration": 1,
+      "closeduration": 1,
+      "closed": {
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": 0
+        }
+      },
+      "open": {
+        "position": {
+          "x": 0,
+          "y": 5.23,
+          "z": 0
+        }
+      }
+    },
+    {
+      "prefabid": "artifact:1668197132869304902",
+      "openduration": 1,
+      "closeduration": 1,
+      "isTerminal": true,
+      "closed": {
+        "position": {
+          "x": 4,
+          "y": 0,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      },
+      "open": {
+        "position": {
+          "x": 4,
+          "y": 0,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    }
+  ]
+}
